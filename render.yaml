@@ -33,4 +33,5 @@ services:
     name: day12-agent-redis
     region: singapore
     plan: free
+    ipAllowList: []
     maxmemoryPolicy: allkeys-lru
